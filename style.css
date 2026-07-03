@@ -1,0 +1,75 @@
+body {
+margin: 0;
+font-family: Arial;
+background:linear-gradient(135deg,#161616,#0e0d0d,#161616);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 100vw;
+height: 100vh;
+position: sticky;
+color: #ffffff;
+
+}
+.toolbar {
+background: #ffffff;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+border-radius: 30px;
+width: 30vw;
+align-items: center;
+align-content: center;
+margin-left: 35vw;
+margin-top: 1%;
+}
+
+@media screen and (max-width:768px){
+    .toolbar{width: 50%; margin-left:20%;margin-top: 10%; }
+    .toolbar button,.toolbar input { padding: 2%; }
+    
+}
+.toolbar button{
+padding: 2.5%;
+border: none;
+border-radius: 5px;
+background-color:#0078d400;
+color: #ffffff;
+border-radius:30px;
+
+}
+
+.toolbar input {
+padding: 2.5%;
+border: none;
+border-radius: 5px;
+background-color:#0078d400;
+color: #ffffff;
+border-radius:30px;
+
+} 
+
+
+.toolbar button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #000000;
+    
+ 
+}
+canvas {
+    border-radius: 2vw;
+background: rgb(255, 255, 255);
+touch-action: none;
+display: block;
+margin: auto;
+width: 60%;
+height: 50%;
+margin-top: 10vh;
+box-shadow: 0 0 50px #000000;
+
+
+}
